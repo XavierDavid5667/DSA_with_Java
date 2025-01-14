@@ -1,11 +1,9 @@
-package com.interview;
+package com.practice;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Program1 {
-
     public static  void duplicate(){
         String name="XavierDavid";
         String[] stringArray= name.toLowerCase().split("");
