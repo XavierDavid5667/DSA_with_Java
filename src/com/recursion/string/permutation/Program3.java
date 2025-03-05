@@ -1,6 +1,7 @@
 package com.recursion.string.permutation;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Program3 {
@@ -21,13 +22,11 @@ public class Program3 {
             swap(arr, index, i);
         }
     }
-
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
     public static void main(String[] args) {
         List<List<Integer>> list = new ArrayList<>();
         int[] arr = {1, 2, 3};
